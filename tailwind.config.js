@@ -13,7 +13,12 @@ export default {
     },
     colors: {
       'amber': 'var(--amber)',
-      'pastel-yellow': 'var(--pastel-yellow)'
+      'pastel-yellow': 'var(--pastel-yellow)',
+      'fresh-green': 'var(--fresh-green)',
+      'bubble-gum-pink': 'var(--bubble-gum-pink)',
+      'black': 'var(--black)',
+      'cobalt-blue': 'var(--cobalt-blue)',
+      'white': 'var(--white)'
     }
   },
   plugins: [],

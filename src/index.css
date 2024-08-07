@@ -5,6 +5,11 @@
 :root {
     --amber: #FFCB3B;
     --pastel-yellow: #FFFFF5;
+    --fresh-green: #107B3B;
+    --bubble-gum-pink: #E69FC7;
+    --black: #010101;
+    --cobalt-blue: #0D50D2;
+    --white: #FFFFFF;
 }
 
 * {
