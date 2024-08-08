@@ -2,22 +2,23 @@ export default function Homepage(){
     return (
         <>
             <main>
-                <section>
-                    <img src="/homepage/hero-image.svg" alt="A collage of different locations in old Toronto" />
+                <section className="flex justify-center">
+                    <img src="/homepage/hero-image.svg" alt="A collage of different locations in old Toronto" className="w-full"/>
                 </section>
 
-                <section className="flex flex-col gap-y-[3rem] bg-amber p-[3rem]">
+                <section className="flex flex-col gap-y-[3rem] bg-amber p-[3rem] pb-[4rem]">
                     <div className="heading font-dela font-normal text-[4.5rem] text-center">
                         A new way to explore your home 
                     </div>
                     <div className="flex gap-[1rem]">
-                        <div className="binocular-image relative w-full h-96">
-                            <img src="/explore/animation/green-star.svg" alt="green star" className="absolute top-[30%] left-[10%] animate-rotateWithPause"/>
-                            <img src="/explore/animation/square.svg" alt="Blue square" className="absolute top-0 left-[40%] animate-rotateWithPause"/>
-                            <img src="/explore/animation/pink-star.svg" alt="pink star" className="absolute top-[30%] left-[80%] animate-rotateWithPause"/>
-                            <img src="/explore/animation/binoculars.svg" alt="Binocular" className="w-[60%] h-auto absolute left-[20%] top-[70%] animate-rotateWithPause"/>
+                        <div className="binocular-image relative w-1/2 h-96">
+                            <img src="/explore/animation/green-star.svg" alt="green star" className="absolute top-[45%] left-[20%] animate-rotateWithPause w-20"/>
+                            <img src="/explore/animation/square.svg" alt="Blue square" className="absolute top-0 left-[40%] animate-rotateWithPause w-28"/>
+                            <img src="/explore/animation/pink-star.svg" alt="pink star" className="absolute top-[45%] left-[65%] animate-rotateWithPause w-20"/>
+                            <img src="/explore/animation/binoculars.svg" alt="Binocular" className="w-[60%] h-auto absolute left-[15%] top-[60%] animate-rotateWithPause"/>
                         </div>
-                        <div className="flex flex-col content font-chivo font-normal text-[1.5rem] w-[50%] gap-[1rem]">
+
+                        <div className="flex flex-col content font-chivo font-normal text-[1.5rem] w-[50%] gap-[1.5rem]">
                             <div>
                                 Do you feel out-of-place and want to just jump back on the next flight back home? Are you struggling to find your way around this unfamiliar city? If you do, you are not alone. Thousands of immigrant students in Toronto struggle with these problems and don’t know where to find the solutions. That is where Gems comes in.
                             </div>
@@ -79,12 +80,12 @@ export default function Homepage(){
                         </div>
                         
                     </div>
-                    <div>
+                    <div className="flex justify-center">
                         <img src="/homepage/group-photo.svg" alt="group image" />
                     </div>
                 </section>
 
-                <section className="flex flex-row bg-cobalt-blue p-[3rem] text-white">
+                <section className="flex flex-row justify-center gap-[2rem] bg-cobalt-blue p-[3rem] text-white">
                     <div className="flex flex-col gap-y-[1rem] w-1/2 justify-center">
                         <div className="heading font-dela font-normal text-[4.5rem] text-left">
                             Feeling a bit lost?

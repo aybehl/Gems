@@ -18,4 +18,23 @@
     box-sizing: border-box;
 }
 
-
+.hover-eats:hover img {
+    content: url('/explore/food.svg');
+  }
+  
+  .hover-shops:hover img {
+    content: url('/explore/shop.svg');
+  }
+  
+  .hover-grocery:hover img {
+    content: url('/explore/grocery.svg');
+  }
+  
+  .hover-places:hover img {
+    content: url('/explore/places.svg');
+  }
+  
+  .hover-events:hover img {
+    content: url('/explore/events.svg');
+  }
+  
