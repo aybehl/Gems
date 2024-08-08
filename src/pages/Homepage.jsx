@@ -10,9 +10,12 @@ export default function Homepage(){
                     <div className="heading font-dela font-normal text-[4.5rem] text-center">
                         A new way to explore your home 
                     </div>
-                    <div className="">
-                        <div className="binocular-image">
-
+                    <div className="flex gap-[1rem]">
+                        <div className="binocular-image relative w-full h-96">
+                            <img src="/explore/animation/green-star.svg" alt="green star" className="absolute top-[30%] left-[10%] animate-rotateWithPause"/>
+                            <img src="/explore/animation/square.svg" alt="Blue square" className="absolute top-0 left-[40%] animate-rotateWithPause"/>
+                            <img src="/explore/animation/pink-star.svg" alt="pink star" className="absolute top-[30%] left-[80%] animate-rotateWithPause"/>
+                            <img src="/explore/animation/binoculars.svg" alt="Binocular" className="w-[60%] h-auto absolute left-[20%] top-[70%] animate-rotateWithPause"/>
                         </div>
                         <div className="flex flex-col content font-chivo font-normal text-[1.5rem] w-[50%] gap-[1rem]">
                             <div>
@@ -35,21 +38,21 @@ export default function Homepage(){
                         We aim to ...
                     </div>
                     <div className="flex gap-x-[3.375rem]">
-                        <div className="flex flex-col items-center bg-bubble-gum-pink gap-y-[2.5rem] rounded-[1rem] p-[1.5rem] w-1/3">
+                        <div className="flex flex-col items-center bg-bubble-gum-pink gap-y-[2.5rem] rounded-[1rem] p-[1.5rem] w-1/3 hover:ring-black hover:ring-4">
                             <img src="/homepage/gem-icon.svg" alt="A gem icon"/>
                             <div className="font-chivo font-normal text-[1.5rem] text-center w-[60%]">
                                 Spotlight amazing local businesses where you can purchase food items and mementos unique to specific cultures
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center bg-pastel-yellow gap-y-[2.5rem] rounded-[1rem] p-[1.5rem] w-1/3">
+                        <div className="flex flex-col items-center bg-pastel-yellow gap-y-[2.5rem] rounded-[1rem] p-[1.5rem] w-1/3 hover:ring-black hover:ring-4">
                             <img src="/homepage/community-icon.svg" alt="A community icon"/>
                             <div className="font-chivo font-normal text-[1.5rem] text-center w-[60%]">
                                 Introduce you to communities of fellow immigrants who clearly understand the challenges you are experiencing 
                             </div>
                         </div>
 
-                        <div className="flex flex-col items-center bg-amber gap-y-[2.5rem] rounded-[1rem] p-[1.5rem] w-1/3">
+                        <div className="flex flex-col items-center bg-amber gap-y-[2.5rem] rounded-[1rem] p-[1.5rem] w-1/3 hover:ring-black hover:ring-4">
                             <img src="/homepage/homesick-icon.svg" alt="A star icon"/>
                             <div className="font-chivo font-normal text-[1.5rem] text-center w-[60%]">
                                 Help you feel less homesick and afraid of being lost, both literally and figuratively

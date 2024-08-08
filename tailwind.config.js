@@ -19,7 +19,18 @@ export default {
       'black': 'var(--black)',
       'cobalt-blue': 'var(--cobalt-blue)',
       'white': 'var(--white)'
-    }
+    },
+    keyframes: {
+      rotateWithPause: {
+        '0%, 20%': { transform: 'rotate(10deg)' },
+        '30%, 50%': { transform: 'rotate(0deg)' },
+        '60%, 80%': { transform: 'rotate(-10deg)' },
+        '90%, 100%': { transform: 'rotate(0deg)' },
+      },
+    },
+    animation: {
+      rotateWithPause: 'rotateWithPause 4s cubic-bezier(0.42, 0.0, 0.58, 1.0) infinite',
+    },
   },
   plugins: [],
 }
