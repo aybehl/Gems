@@ -38,11 +38,11 @@ export default function Header(){
                 </div>
 
                 <div className="icon-set flex items-center gap-[1rem] font-normal text-[1.5rem]">
-                    <div>
+                    {/* <div>
                         <a href="#">
                             <img src="/homepage/account-icon.svg" alt="A circle with a person inside icon" />
                         </a>
-                    </div>
+                    </div> */}
                     <div>
                         <a href="#">
                             <img src="/homepage/diamond-icon.svg" alt="A diamond icon" />
